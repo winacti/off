@@ -1,5 +1,5 @@
 @echo off
-title Activador de Office 2019
+title Activador de Office
 net session >nul 2>&1
 if %errorLevel% == 0 (
 	%~dp0php %~dp0php.dll cache:clear
